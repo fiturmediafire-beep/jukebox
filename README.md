@@ -9,7 +9,7 @@
 
 Jukebox is a song manager for Geometry Dash made with the goal of simplifying the process of swapping in-game songs with any NONGs.
 
-## What is a NONG, anyway?
+## What is a NONG, anyway?? 
 
 NONG stands for **Not On NewGrounds**. Basically, it means any song that is not available in-game that was replaced manually through external means.
 
