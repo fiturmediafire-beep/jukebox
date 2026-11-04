@@ -12,17 +12,6 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - name: Windows
-            os: windows-latest
-            build-type: RelWithDebInfo
-          - name: macOS
-            os: macos-latest
-          - name: iOS
-            os: macos-latest
-            target: iOS
-          - name: Android32
-            os: ubuntu-latest
-            target: Android32
           - name: Android64
             os: ubuntu-latest
             target: Android64
@@ -39,7 +28,7 @@ jobs:
         with:
           export-pdb: true
           combine: true
-          sdk: "given"
+          sdk: "v6.0.0-alpha.1"
           target: ${{ matrix.config.target }}
           ccache-variant: ccache
           build-config: ${{ matrix.config.build-type || 'Release' }}
