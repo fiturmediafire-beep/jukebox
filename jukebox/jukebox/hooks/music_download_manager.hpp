@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <vector>
 
 #include <Geode/binding/MusicDownloadManager.hpp>
 #include <Geode/binding/SongInfoObject.hpp>
